@@ -7,6 +7,9 @@ body{
     width: 100%;
     font-family: "Azeret Mono", monospace;
 }
+a{
+    text-decoration: none;
+}
 nav{
     height: 3rem;
     display: flex;
@@ -14,8 +17,7 @@ nav{
     align-items: center;
     padding: 1.5rem;
 }
-a{
-    text-decoration: none;
+.web-title{
     color: rgb(13, 19, 33);
     font-size: 2rem;
     font-weight: 800;
@@ -35,4 +37,12 @@ a{
     background-image: url('./assets/hero-bg.png');
     margin-top: 3rem;
     height: calc(100vh-3rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header-img{
+    padding-top: 2rem;
+    margin-bottom: 10rem;
 }
