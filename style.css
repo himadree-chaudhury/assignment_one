@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+body{
+    width: 100%;
+    font-family: "Azeret Mono", monospace;
+}
+nav{
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+}
+a{
+    text-decoration: none;
+    color: rgb(13, 19, 33);
+    font-size: 2rem;
+    font-weight: 800;
+}
+.resume-download{
+    background-color: transparent;
+    padding: 15px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: rgb(13, 19, 33);
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: #0D1321;
+    cursor: pointer;
+}
+.header-wall{
+    background-image: url('./assets/hero-bg.png');
+    margin-top: 3rem;
+    height: calc(100vh-3rem);
+}
