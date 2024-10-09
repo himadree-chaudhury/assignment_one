@@ -16,6 +16,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: 1.5rem;
+    position: relative;
 }
 .web-title{
     color: rgb(13, 19, 33);
@@ -45,4 +46,9 @@ nav{
 .header-img{
     padding-top: 2rem;
     margin-bottom: 10rem;
+}
+.header-title{
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 800;
 }
