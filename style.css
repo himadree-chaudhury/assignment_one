@@ -16,11 +16,12 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 90vw;
+    width: 95vw;
     padding: 1.5rem;
     background-color: white;
     height: 3rem;
     top: 0;
+    left: 0;
 }
 .web-title{
     color: rgb(13, 19, 33);
@@ -40,7 +41,7 @@ a{
 }
 .header-wall{
     background-image: url('./assets/hero-bg.png');
-    margin-top: 4rem;
+    margin-top: 6rem;
     /* height: calc(100vh-3rem); */
     display: flex;
     flex-direction: column;
@@ -48,7 +49,7 @@ a{
     align-items: center;
 }
 .header-img{
-    padding-top: 2rem;
+    margin-top: 2rem;
     margin-bottom: 8rem;
 }
 .header-title{
@@ -59,7 +60,7 @@ a{
     margin-bottom: 1rem;
 }
 .header-description{
-    width: 75%;
+    width: 65%;
     margin-bottom: 1rem;
     text-align: center;
 }
@@ -71,4 +72,7 @@ a{
     border: 1pm;
     border-color: black;
     border-radius: 10px;
+}
+main img{
+    display: block;
 }
