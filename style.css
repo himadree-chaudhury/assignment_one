@@ -3,76 +3,100 @@
   padding: 0;
   scroll-behavior: smooth;
 }
-body{
-    width: 100%;
-    font-family: "Azeret Mono", monospace;
+body {
+  width: 100%;
+  font-family: "Azeret Mono", monospace;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
-
-.nav-container{
-    position: fixed;
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  height: 5rem;
+  padding-top: 1rem;
+  top: 0;
+  background-color: white;
+  width: 100vw;
+  overflow: hidden;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95vw;
+}
+.web-title {
+  color: rgb(13, 19, 33);
+  font-size: 2rem;
+  font-weight: 800;
+}
+.resume-download {
+  background-color: transparent;
+  padding: 10px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: rgb(13, 19, 33);
+  border-width: 1px;
+  border-radius: 10px;
+  border-color: #0d1321;
+  cursor: pointer;
+}
+.header-wall {
+  background-image: url("./assets/hero-bg.png");
+  margin-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header-img {
+  margin-top: 2rem;
+  margin-bottom: 8rem;
+}
+.header-title {
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: 800;
+  width: 90%;
+  margin-bottom: 1rem;
+}
+.header-description {
+  width: 65%;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.contact {
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  margin: 1rem;
+  border: 1pm;
+  border-color: black;
+  border-radius: 10px;
+}
+.main-container {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.why-web-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.web-container {
+  display: flex;
+  width: 80%;
+}
+.embed-video {
+  display: flex;
+  justify-content: center;
+}
+.current{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 95vw;
-    padding: 1.5rem;
-    background-color: white;
-    height: 3rem;
-    top: 0;
-    left: 0;
-}
-.web-title{
-    color: rgb(13, 19, 33);
-    font-size: 2rem;
-    font-weight: 800;
-}
-.resume-download{
-    background-color: transparent;
-    padding: 15px;
-    font-size: 1.5rem;
-    font-weight: 500;
-    color: rgb(13, 19, 33);
-    border-width: 1px;
-    border-radius: 10px;
-    border-color: #0D1321;
-    cursor: pointer;
-}
-.header-wall{
-    background-image: url('./assets/hero-bg.png');
-    margin-top: 6rem;
-    /* height: calc(100vh-3rem); */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.header-img{
-    margin-top: 2rem;
-    margin-bottom: 8rem;
-}
-.header-title{
-    font-size: 2.5rem;
-    text-align: center;
-    font-weight: 800;
-    width: 90%;
-    margin-bottom: 1rem;
-}
-.header-description{
-    width: 65%;
-    margin-bottom: 1rem;
-    text-align: center;
-}
-.contact{
-    background-color: black;
-    color: white;
-    padding: 1rem;
-    margin: 1rem;
-    border: 1pm;
-    border-color: black;
-    border-radius: 10px;
-}
-main img{
-    display: block;
+    justify-content: space-evenly;
 }
