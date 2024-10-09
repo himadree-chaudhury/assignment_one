@@ -10,13 +10,17 @@ body{
 a{
     text-decoration: none;
 }
-nav{
-    height: 3rem;
+
+.nav-container{
+    position: fixed;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 90vw;
     padding: 1.5rem;
+    background-color: white;
     height: 3rem;
+    top: 0;
 }
 .web-title{
     color: rgb(13, 19, 33);
@@ -36,7 +40,8 @@ nav{
 }
 .header-wall{
     background-image: url('./assets/hero-bg.png');
-    height: calc(100vh-3rem);
+    margin-top: 4rem;
+    /* height: calc(100vh-3rem); */
     display: flex;
     flex-direction: column;
     justify-content: center;
