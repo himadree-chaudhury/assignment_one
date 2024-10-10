@@ -90,7 +90,7 @@ nav {
 }
 .web-container {
   display: flex;
-  width: 80%;
+  width: 90%;
 }
 .embed-video {
   display: flex;
@@ -99,4 +99,7 @@ nav {
 .current{
     display: flex;
     justify-content: space-evenly;
+}
+.next article{
+  display: flex;
 }
