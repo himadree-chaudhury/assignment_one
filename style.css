@@ -82,18 +82,18 @@ nav {
   align-items: center;
   margin: 5rem;
 }
-.why-container{
+.why-container {
   background-color: #eaedf121;
   border: 1px;
   border-color: transparent;
   border-radius: 20px;
 }
-.section-heading{
+.section-heading {
   text-align: center;
   font-size: 2rem;
   padding: 1rem 0;
 }
-.wey-web-description{
+.wey-web-description {
   text-align: center;
 }
 .why-web-container {
@@ -113,11 +113,13 @@ nav {
   border-color: white;
   border-radius: 20px;
 }
-.why-web-learn h3,p,button{
-margin-bottom: 2rem;
-color: #0d1321ce;
+.why-web-learn h3,
+p,
+button {
+  margin-bottom: 2rem;
+  color: #0d1321ce;
 }
-.why-web-learn>button{
+.why-web-learn > button {
   cursor: pointer;
   padding: 0.8rem 1rem;
   background-color: transparent;
@@ -125,29 +127,50 @@ color: #0d1321ce;
   font-size: 1rem;
   font-weight: 600;
 }
-.web-container img{
+.web-container img {
   width: 15rem;
   height: 15rem;
   object-fit: cover;
 }
 .embed-video {
+  width: 90%;
   display: flex;
   justify-content: center;
   border: 1px solid;
   border-color: rgba(12, 10, 10, 0.322);
   border-radius: 10px;
 }
-.embed-video iframe{
+.embed-video iframe {
   aspect-ratio: 1.85/1;
-  width: 60rem;
-  size: 90rem;
+  width: 100%;
   border-radius: 15px;
   padding: 0.5rem;
 }
-.current{
-    display: flex;
-    justify-content: space-evenly;
+.current {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  width: 90%;
+  /* background-color: black; */
 }
-.next article{
+.target{
+  display: grid;
+  border-radius: 10px;
+border-color: transparent;
+  padding: 2rem;
+  width: 33.33%;
+  height: 15rem;
+  /* object-fit: cover; */
+}
+.t-html{
+  background-color: rgba(255, 166, 0, 0.150);
+}
+.t-css{
+  background-color: rgba(0, 0, 255, 0.150);
+}
+.t-js{
+  background-color: rgba(255, 255, 0, 0.150);
+}
+.next article {
   display: flex;
 }
