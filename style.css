@@ -133,18 +133,16 @@ button {
   object-fit: cover;
 }
 .embed-video {
-  width: 90%;
+  width: 65%;
   display: flex;
   justify-content: center;
-  border: 1px solid;
-  border-color: rgba(12, 10, 10, 0.322);
-  border-radius: 10px;
 }
 .embed-video iframe {
   aspect-ratio: 1.85/1;
   width: 100%;
   border-radius: 15px;
   padding: 0.5rem;
+  outline: 1px solid rgba(12, 10, 10, 0.322);
 }
 .current {
   display: flex;
@@ -152,7 +150,7 @@ button {
   justify-content: space-between;
   width: 90%;
 }
-.current a{
+.current a {
   color: black;
   text-decoration: underline;
   font-weight: 600;
@@ -163,7 +161,9 @@ button {
   border-color: transparent;
   padding: 2rem;
   width: 33.33%;
-  height: 15rem;
+}
+.target h2 {
+  padding: 1rem 0rem;
 }
 .t-html {
   background-color: rgba(255, 166, 0, 0.15);
@@ -183,19 +183,18 @@ button {
   border-color: rgba(12, 10, 10, 0.322);
   border-radius: 10px;
 }
-.next-description{
+.next-description {
   padding: 2rem;
-  height: 8rem;
 }
-.next-description h3{
+.next-description h3 {
   margin-bottom: 1rem;
 }
-.next-description a{
+.next-description a {
   color: black;
   text-decoration: underline;
   font-weight: 600;
 }
-.support{
+.support {
   margin-top: 0;
   width: 100%;
   color: white;
@@ -205,24 +204,23 @@ button {
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
-.support-description{
+.support-description {
   color: white;
 }
-.form{
+.form {
   text-align: center;
   margin: 5rem 0;
 }
-.input_field{
-    font-family: "Azeret Mono", monospace;
-
+.input_field {
+  font-family: "Azeret Mono", monospace;
   width: 40%;
   padding: 0.8rem;
   border-color: transparent;
   border-radius: 10px;
 }
-.form button{
-    font-family: "Azeret Mono", monospace;
-font-weight: 600;
+.form button {
+  font-family: "Azeret Mono", monospace;
+  font-weight: 600;
   background-color: white;
   padding: 0.8rem 1.2rem;
   border-color: transparent;
