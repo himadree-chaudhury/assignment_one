@@ -151,26 +151,47 @@ button {
   gap: 1rem;
   justify-content: space-between;
   width: 90%;
-  /* background-color: black; */
 }
-.target{
+.current a{
+  color: black;
+  text-decoration: underline;
+  font-weight: 600;
+}
+.target {
   display: grid;
   border-radius: 10px;
-border-color: transparent;
+  border-color: transparent;
   padding: 2rem;
   width: 33.33%;
   height: 15rem;
-  /* object-fit: cover; */
 }
-.t-html{
-  background-color: rgba(255, 166, 0, 0.150);
+.t-html {
+  background-color: rgba(255, 166, 0, 0.15);
 }
-.t-css{
-  background-color: rgba(0, 0, 255, 0.150);
+.t-css {
+  background-color: rgba(0, 0, 255, 0.15);
 }
-.t-js{
-  background-color: rgba(255, 255, 0, 0.150);
+.t-js {
+  background-color: rgba(255, 255, 0, 0.15);
 }
 .next article {
   display: flex;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  align-items: center;
+  border: 1px solid;
+  border-color: rgba(12, 10, 10, 0.322);
+  border-radius: 10px;
+}
+.next-description{
+  padding: 2rem;
+  height: 8rem;
+}
+.next-description h3{
+  margin-bottom: 1rem;
+}
+.next-description a{
+  color: black;
+  text-decoration: underline;
+  font-weight: 600;
 }
