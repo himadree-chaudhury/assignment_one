@@ -161,6 +161,7 @@ button {
   border-color: transparent;
   padding: 2rem;
   width: 33.33%;
+  overflow: auto;
 }
 .target h2 {
   padding: 1rem 0rem;
