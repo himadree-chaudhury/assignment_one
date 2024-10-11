@@ -1,4 +1,4 @@
-/* Universal Design */
+/* *Universal Design */
 * {
   margin: 0;
   padding: 0;
@@ -72,7 +72,7 @@ nav {
   margin-bottom: 1rem;
   text-align: center;
 }
-/* Contact Button */
+/* label : Contact Button */
 .contact {
   background-color: black;
   color: white;
