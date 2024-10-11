@@ -1,3 +1,4 @@
+/* Universal Design */
 * {
   margin: 0;
   padding: 0;
@@ -10,6 +11,7 @@ body {
 a {
   text-decoration: none;
 }
+/* Navbar Design */
 nav {
   display: flex;
   flex-direction: column;
@@ -32,6 +34,7 @@ nav {
   font-size: 2rem;
   font-weight: 800;
 }
+/* Resume Button */
 .resume-download {
   display: flex;
   background-color: transparent;
@@ -44,6 +47,7 @@ nav {
   border-radius: 10px;
   cursor: pointer;
 }
+/* Header Design */
 .header-wall {
   background-image: url("./assets/hero-bg.png");
   margin-top: 6rem;
@@ -68,6 +72,7 @@ nav {
   margin-bottom: 1rem;
   text-align: center;
 }
+/* Contact Button */
 .contact {
   background-color: black;
   color: white;
@@ -77,12 +82,14 @@ nav {
   border-color: black;
   border-radius: 10px;
 }
+/* Universal Section Design */
 .main-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 5rem;
 }
+/* Section-1 Design */
 .why-container {
   background-color: #eaedf121;
   border: 1px;
@@ -133,6 +140,7 @@ button {
   height: 15rem;
   object-fit: cover;
 }
+/* Section-2 Design */
 .embed-video {
   width: 65%;
   display: flex;
@@ -145,6 +153,7 @@ button {
   padding: 0.5rem;
   outline: 1px solid rgba(12, 10, 10, 0.322);
 }
+/* Section-3 Design */
 .current {
   display: flex;
   gap: 1rem;
@@ -177,6 +186,7 @@ button {
 .t-js {
   background-color: rgba(255, 255, 0, 0.15);
 }
+/* Section-4 Design */
 .next article {
   display: flex;
   padding: 1rem;
@@ -198,6 +208,7 @@ button {
   text-decoration: underline;
   font-weight: 600;
 }
+/* Section-5 Design */
 .support {
   margin-top: 0;
   width: 100%;
@@ -211,6 +222,7 @@ button {
 .support-description {
   color: white;
 }
+/* Input Form Design */
 .form {
   text-align: center;
   margin: 5rem 0;
@@ -230,6 +242,7 @@ button {
   border-color: transparent;
   border-radius: 10px;
 }
+/* Footer Design */
 #about-me{
   background-color: rgba(234, 237, 241, 0.700);
   display: flex;
