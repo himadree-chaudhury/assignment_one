@@ -95,6 +95,7 @@ nav {
 }
 .wey-web-description {
   text-align: center;
+  
 }
 .why-web-container {
   display: flex;
@@ -228,4 +229,10 @@ button {
   padding: 0.8rem 1.2rem;
   border-color: transparent;
   border-radius: 10px;
+}
+#about-me{
+  background-color: rgba(234, 237, 241, 0.700);
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 3rem;
 }
